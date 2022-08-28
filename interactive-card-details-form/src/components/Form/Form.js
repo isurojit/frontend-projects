@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Form.module.css";
 import FormInput from "./FormInput";
 
 const Form = () => {
