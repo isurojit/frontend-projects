@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./FormInput.module.css";
 import { Button, Form, Row, Col } from "react-bootstrap";
 
 const FormInput = () => {
