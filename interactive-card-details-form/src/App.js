@@ -1,7 +1,12 @@
 import React from "react";
+import Base from "./components/Layout/Base";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <React.Fragment>
+      <Base />
+    </React.Fragment>
+  );
 };
 
 export default App;
