@@ -3,7 +3,7 @@ import { Button, Form, Row, Col } from "react-bootstrap";
 
 const FormInput = () => {
   return (
-    <Form style={{ width: "65%" }}>
+    <Form style={{ width: "85%" }}>
       <Form.Group className="mb-3" controlId="cardHolderName">
         <Form.Label>CARDHOLDER NAME</Form.Label>
         <Form.Control type="text" placeholder="e.g. Jane Appleseed" />

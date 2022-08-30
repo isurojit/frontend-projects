@@ -1,0 +1,50 @@
+.card {
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  width: 30%;
+  height: auto;
+}
+.logo {
+  position: absolute;
+  top: -9rem;
+  left: 1rem;
+  z-index: 99;
+}
+.front {
+  position: absolute;
+  top: -10rem;
+}
+.frontCardInfo {
+  position: absolute;
+  z-index: 999;
+  top: 7rem;
+  left: 2rem;
+  color: #fff;
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.frontCardInfoName {
+  position: absolute;
+  top: 3rem;
+  width: 110%;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.back {
+  position: absolute;
+  top: 5rem;
+  transform: translateX(20%);
+}
+.back > p {
+  position: absolute;
+  top: 5.8rem;
+  left: 19rem;
+  font-weight: bolder;
+  color: #fff;
+  z-index: 9999;
+}

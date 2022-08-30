@@ -5,6 +5,7 @@ import graditent from "../../assets/images/bg-main-desktop.png";
 import Form from "../Form/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Image, Row, Col } from "react-bootstrap";
+import CardLayout from "../Card/CardLayout";
 
 const styles = {
   img: {
@@ -27,7 +28,7 @@ const Base = () => {
   return (
     <React.Fragment>
       <Row style={styles.row}>
-        <Col style={styles.col}>
+        <Col style={styles.col} lg="4">
           <Image
             className={classes.img}
             src={graditent}
@@ -36,7 +37,10 @@ const Base = () => {
             style={styles.img}
           />
         </Col>
-        <Col className={classes.form}>
+        <Col xs lg="2">
+          <CardLayout />
+        </Col>
+        <Col className={classes.form} lg="5">
           <Form />
         </Col>
       </Row>
